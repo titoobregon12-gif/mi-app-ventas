@@ -1,0 +1,97 @@
+{
+  "productos": {
+    "P001": {
+      "id": "P001",
+      "nombre": "CABLE USB",
+      "costo": 7.0,
+      "precio_venta": 15.0,
+      "stock": 7
+    },
+    "P002": {
+      "id": "P002",
+      "nombre": "Mouse Logitech",
+      "costo": 35.0,
+      "precio_venta": 70.0,
+      "stock": 44
+    },
+    "P003": {
+      "id": "P003",
+      "nombre": "Teclado Mec\u00e1nico",
+      "costo": 90.0,
+      "precio_venta": 160.0,
+      "stock": 28
+    },
+    "P004": {
+      "id": "P004",
+      "nombre": "Monitor 24''",
+      "costo": 320.0,
+      "precio_venta": 480.0,
+      "stock": 15
+    },
+    "007": {
+      "id": "007",
+      "nombre": "CARGADOR",
+      "costo": 12.0,
+      "precio_venta": 25.0,
+      "stock": 6
+    }
+  },
+  "ventas": [
+    {
+      "id_venta": 1,
+      "fecha": "2026-10-05 11:25:08",
+      "items": [
+        {
+          "id_producto": "P002",
+          "cantidad": 2
+        },
+        {
+          "id_producto": "P003",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id_venta": 2,
+      "fecha": "2026-10-05 11:25:08",
+      "items": [
+        {
+          "id_producto": "P001",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "P002",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id_venta": 3,
+      "fecha": "2026-10-05 11:25:37",
+      "items": [
+        {
+          "id_producto": "P002",
+          "cantidad": 2
+        },
+        {
+          "id_producto": "P003",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id_venta": 4,
+      "fecha": "2026-10-05 11:25:37",
+      "items": [
+        {
+          "id_producto": "P001",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "P002",
+          "cantidad": 1
+        }
+      ]
+    }
+  ]
+}
